@@ -11,7 +11,12 @@ namespace OOP__ClassMember
 {
     public class StudentServices
     {
+        // constant
         public const int month = 12;
+
+        // property
+        public String StudentRegistrationNumber {  get; set; }
+
 
     }
 }
